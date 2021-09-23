@@ -1,0 +1,30 @@
+{% extends('base.html.twig') %}
+
+{% block title %} Règlement Intérieur du Collège {% endblock %}
+
+{% block body %}
+
+<h1> Ceci Sont les règles à suivre bande de petits vauriens </h1>
+
+{% for i in 1..10 %}
+<h2> {{i}} . Nouveau chapitre.</h2><br>
+
+<p>
+    <span>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem odio aut molestiae autem ut consectetur repellendus odit cum recusandae. Est, recusandae ipsum. Suscipit quas id similique itaque inventore fugit.
+        Ullam, delectus debitis odit esse aspernatur laborum officia sint reprehenderit aperiam quidem, consequuntur non dolor cum, minima vel? Deleniti ad molestias impedit similique! Officiis repellat, odit adipisci perspiciatis consequatur aliquam.
+    </span>
+    <span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, consequatur placeat? Repellendus laudantium sint sequi cum esse, doloribus amet sed quasi, consectetur ex quod rem, aliquid assumenda soluta rerum quas!
+        Delectus, quam incidunt voluptas consectetur sed laborum neque odit iusto repudiandae mollitia iure deserunt voluptates. Enim consequuntur quae, voluptas saepe nihil laborum voluptatibus quam animi rem. Ducimus magnam ea magni!
+        A ratione sapiente, quasi magni dolorum alias maiores, voluptates adipisci quis vero quam necessitatibus! Consequatur voluptatem, dolore, similique voluptate, quia obcaecati earum deleniti pariatur perspiciatis quo quos ipsum qui maiores!
+    </span>
+</p>
+    <h3> Exceptions</h3>
+    <p>
+        <span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt corrupti explicabo debitis voluptatem sequi illo, veniam non perspiciatis aspernatur nobis quis eveniet magni tempora, quaerat velit ad, sint qui voluptatibus.
+        </span>
+    </p>
+{% endfor %}
+{% endblock %}
